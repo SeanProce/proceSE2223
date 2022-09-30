@@ -1,4 +1,7 @@
 /* ----------------------------- CLASS CSS ----------------------------- */
+.table td {
+    font-size:20px;
+}
 .noborder td, .noborder th {
     border: none;
 }

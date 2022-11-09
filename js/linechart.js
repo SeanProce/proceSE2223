@@ -3,7 +3,7 @@
 
 
 async function getData() {
-    const response = await fetch('../data/Researchcsv.csv')
+    const response = await fetch('data/Researchcsv.csv')
     const data = await response.text() // CSV in TEXT format
     const table = data.split('\n').slice(1)
     const xTrial = []

@@ -24,27 +24,39 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light headerBG">
-        <!-- lg = large breakpoint, headerBG = custom css BG color -->
-        <div class="container"> <!-- Container will contain content in certain space in middle of page -->
-            <a href="index.html" class="navbar-brand">
-                <img src="/img/Built_with_Firebase_Logo_LightTP.png" alt="Built wtih Firebase" class="d-inline-block align-text-top">
+    <nav class="navbar navbar-expand-lg navbar-dark nb-bg-color">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/gears.png" alt="Gears" class="d-inline-block align-text-top w-50">
             </a>
 
-            <!-- Hamburger Menu Button-->
+            <!-- Hamburger Menu Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+            <!-- Collapsible navbar menu with custom hover underline CSS animation-->
             <div class="collapse navbar-collapse" id="navmenu">
-                <!-- Links to hamburger menu button -->
+                <!-- Links to hamburger menu button-->  
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item nbMenuItem">
+                    <li class="nav-item">
+                        <a href="author.html" class="nav-link hover-underline-animation" id="nbMenuItem">Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="procedure.html" class="nav-link hover-underline-animation"
+                            id="nbMenuItem">Procedure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="results.html" class="nav-link hover-underline-animation" id="nbMenuItem">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link hover-underline-animation" id="nbMenuItem">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signIn.html" class="nav-link hover-underline-animation" id="nbMenuItem">Sign In</a>
                     </li>
                 </ul>
             </div>
-
         </div>
     </nav>
 

@@ -48,7 +48,7 @@ div#about {
 
 /* ----------------------------- Underline Animation CSS ----------------------------- */
 .hover-underline-animation {
-    display: inline-block;
+    display: inline-block;  
     position: relative;
     /*color: #0087ca;*/
   }
